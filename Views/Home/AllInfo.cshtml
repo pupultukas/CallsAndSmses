@@ -1,0 +1,65 @@
+﻿@model MainList
+<div class="container">
+    </br>
+    <div class="page-name">
+        Calls and SMSes all tables report
+    </div>
+    </br>
+    <form asp-action="Top5Call" method="post">
+        <div style="white-space: pre-line">
+        </div>
+        @using (Html.BeginForm("AllInfo", "Home", FormMethod.Post))
+            {
+                <div class="tablename">
+                    All information from Calls table
+                </div>
+                <div width="100%">
+                    @if (Model.AllCalls.Count != 0)
+                    {
+                        <table 'border-collapse="collapse" width="100%"'>
+                            <tr color="#BDBDBD">
+                                <th>MsisDn</th>
+                                <th>Type of connection</th>
+                                <th>Duration</th>
+                                <th>Date</th>
+                            </tr>
+                            @foreach (var element in Model.AllCalls)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(m => element.Msisdn)</td>
+                                    <td>@Html.DisplayFor(m => element.Type)</td>
+                                    <td>@Html.DisplayFor(m => element.DurationSeconds)</td>
+                                    <td>@Html.DisplayFor(m => element.Date)</td>
+                                </tr>
+                            }
+                        </table>
+                    }
+                </div>
+                <div style="white-space: pre-line">
+                </div>
+                <div class="tablename">
+                    All information from SMSes table
+                </div>
+                <div width="100%">
+                    @if (Model.AllSmses.Count != 0)
+                    {
+                        <table 'border-collapse="collapse" width="100%"'>
+                            <tr color="#BDBDBD">
+                                <th>MsisDn</th>
+                                <th>Type of connection</th>
+                                <th>Date</th>
+                            </tr>
+                            @foreach (var element in Model.AllSmses)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(m => element.Msisdn)</td>
+                                    <td>@Html.DisplayFor(m => element.Type)</td>
+                                    <td>@Html.DisplayFor(m => element.Date)</td>
+                                </tr>
+                            }
+                        </table>
+                    }
+                </div>
+            }
+    </form>
+</div>

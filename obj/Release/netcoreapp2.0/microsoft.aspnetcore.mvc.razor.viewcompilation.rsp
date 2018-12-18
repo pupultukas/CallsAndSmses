@@ -1,0 +1,14 @@
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=CallsAndSmses
+--content-root=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Home\AllInfo.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Home\Count.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Home\Index.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Home\Top5Call.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Home\Top5Sms.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Shared\Error.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Shared\_Layout.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\_ViewImports.cshtml
+--file=C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\Views\_ViewStart.cshtml

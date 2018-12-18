@@ -1,0 +1,11 @@
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\bin\Debug\netcoreapp2.0\CallsAndSmses.deps.json
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\bin\Debug\netcoreapp2.0\CallsAndSmses.runtimeconfig.json
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\bin\Debug\netcoreapp2.0\CallsAndSmses.runtimeconfig.dev.json
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\bin\Debug\netcoreapp2.0\CallsAndSmses.dll
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\bin\Debug\netcoreapp2.0\CallsAndSmses.pdb
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\obj\Debug\netcoreapp2.0\CallsAndSmses.csprojAssemblyReference.cache
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\obj\Debug\netcoreapp2.0\CallsAndSmses.csproj.CoreCompileInputs.cache
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\obj\Debug\netcoreapp2.0\CallsAndSmses.AssemblyInfoInputs.cache
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\obj\Debug\netcoreapp2.0\CallsAndSmses.AssemblyInfo.cs
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\obj\Debug\netcoreapp2.0\CallsAndSmses.dll
+C:\Users\USER4\Desktop\CallsAndSms\CallsAndSmses\CallsAndSmses\obj\Debug\netcoreapp2.0\CallsAndSmses.pdb

@@ -1,0 +1,54 @@
+﻿@model MainList
+
+@section Scripts {
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $('.mvc-grid').mvcgrid();
+    </script>
+    <script>
+        $(document).ready(
+            function () {
+                $("#datepicker").datepicker({
+                    dateFormat: "yy-mm-dd",
+                    minDate: -14,
+                    maxDate: "+1M +10D",
+                    firstDay: 1
+                });
+            }
+        );
+    </script>
+    <script>
+        $(document).ready(
+            function () {
+                $("#datepicker2").datepicker({
+                    dateFormat: "yy-mm-dd",
+                    firstDay: 1
+                });
+            }
+        );
+    </script>
+}
+
+<div class="container">
+    </br>
+    <div class="page-name">
+        Calls and SMSes report
+    </div>
+    </br>
+    <form asp-action="index" method="post">
+
+        <div class="datefilter">
+            &nbsp; Date from: <input type="text" id="datepicker" value=@ViewData["from"] name="fromDate" required="">
+            To: <input type="text" id="datepicker2" value=@ViewData["end"] name="endDate" required="">
+            <select name="selectedTask">
+                <option value="ReportOfSMSes">Report of SMSes</option>
+                <option value="ReportOfCalls">Report of Calls</option>
+                <option value="TOP5OfSMSes">TOP5 numbers by SMSes</option>
+                <option value="TOP5OfCalls">TOP5 numbers by Calls</option>
+            </select>
+            <input name="submit" type="submit" id="submit" value="Show" />
+        </div>
+    </form>
+</div>
