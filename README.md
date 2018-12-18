@@ -7,12 +7,14 @@
 
 * MVC used for frontend development
 
+* Hosted on IIS
+
 Models:
 * Calls.cs, Sms.cs, msisdnContext.cs - EF data from database 
 * MainList.cs - class for data reporting to users in views
 
 Controllers:
-HomeController with different action inside
+HomeController with different actions inside
 * Index (start page)
 * Top5Call (Report for TOP 5 msisdn by duration)
 * Top5Sms (Report for TOP 5 msisdn by sms count)
